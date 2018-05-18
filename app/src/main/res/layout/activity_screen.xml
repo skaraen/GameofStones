@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoneScreen"
+    android:gravity="center_horizontal"
+    android:id="@+id/sscreen">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="You've got"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:gravity="center"
+        android:text="the"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/stoneName"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:gravity="center"
+        android:textSize="100dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:gravity="center"
+        android:text="Stone"
+        android:textSize="80dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Click to check what you've got in the Gauntlet"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/ic_launcher_round"
+        android:text="Check"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

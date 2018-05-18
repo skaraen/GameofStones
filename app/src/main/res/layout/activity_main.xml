@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    android:orientation="vertical"
+    android:background="@drawable/ig1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:textColor="#C0C0C0"
+            android:text="Made with &lt;3 from Ebony Maw"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Click to Start"
+            android:textColor="#C0C0C0"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundbutton3"
+            android:onClick="startClick"
+            android:text="Go"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+
+</LinearLayout>
